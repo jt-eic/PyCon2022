@@ -2,6 +2,9 @@
 eighth NeoPixel while button B is being pressed."""
 from adafruit_circuitplayground import cp
 
+""" so now does this work"""
+
+
 cp.pixels.brightness = 0.3
 cp.pixels.fill((0, 0, 0))  # Turn off the NeoPixels if they're on!
 
